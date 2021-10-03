@@ -1,4 +1,4 @@
-# CS3244 Twemoji
+# CS3244 Twemoji ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=RussellDash332/CS3244-Twemoji)
 
 **Welcome to our CS3244 group project!**
 
