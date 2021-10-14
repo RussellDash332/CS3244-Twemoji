@@ -4,6 +4,37 @@
 
 We will push everything here for new updates. Stay tuned!
 
+## Structure
+```
+CS3244-Twemoji
+├── Datasets
+│   ├── Original
+│   │   ├── balanced_test_plaintext.txt
+│   │   ├── emoji_map_1791.csv
+│   │   ├── full_test_plaintext.txt
+│   │   ├── full_train_plaintext.txt
+│   │   ├── full_valid_plaintext.txt
+│   │   ├── img_test_plaintext.txt
+│   │   ├── img_train_plaintext.txt
+│   │   ├── img_valid_plaintext.txt
+│   │   ├── test_balanced_final.csv
+│   │   ├── test_text_final.csv
+│   │   ├── train_text_final.csv
+│   │   └── valid_text_final.csv
+│   ├── train_text_emoji_[1-12].csv
+│   ├── test_text_emoji_[1-12].csv
+│   └── valid_text_emoji_[1-12].csv
+│
+├── .gitignore
+├── emojify.py
+├── NLP_Playground.ipynb
+├── README.md
+├── requirements.txt
+│
+├── Twemoji_Part_1.ipynb
+└── Twemoji_Part_2.ipynb
+```
+
 ## Setup
 - Dataset can be found [here](https://uvaauas.figshare.com/articles/dataset/Twemoji_Dataset/5822100).
 - For Linux users, to install requirements, run `pip -r install requirements.txt`
