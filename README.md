@@ -25,20 +25,29 @@ CS3244-Twemoji
 │   ├── test_text_emoji_[1-12].csv
 │   └── valid_text_emoji_[1-12].csv
 │
-├── .gitignore
-├── emojify.py
-├── NLP_Playground.ipynb
-├── README.md
-├── requirements.txt
+├── Models
+│   ├── BERT
+│   ├── DistilBERT-[1,2]
+│   ├── LSTM
+│   ├── NLTK-sklearn
+│   ├── RNN
+│   └── XLNet
 │
-├── Twemoji_Part_1.ipynb
-├── Twemoji_Part_2.ipynb
-└── Twemoji_Part_3.ipynb
+├── Sample Code
+│   └── ... (just a sample code)
+│
+├── .gitignore
+├── Cleaning-1.ipynb
+├── Cleaning-2.ipynb
+├── emojify.py
+├── Playground.ipynb
+├── README.md
+└── requirements.txt
 ```
 
 ## Setup
 - Dataset can be found [here](https://uvaauas.figshare.com/articles/dataset/Twemoji_Dataset/5822100).
-- For Linux users, to install requirements, run `pip -r install requirements.txt`
+- For Linux users, to install requirements, run `pip -r install requirements.txt` (currently not up to date because unused).
 
 ## About
 Collection of 13M tweets divided into training, validation, and test sets for the purposes of predicting emoji based on text and/or images. The data provides the tweet status ID and the emoji annotations associated with it. In the case of image-containing subsets, the image URL is also listed.
