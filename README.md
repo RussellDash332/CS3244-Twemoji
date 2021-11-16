@@ -32,7 +32,8 @@ CS3244-Twemoji
 ├── requirements.txt
 │
 ├── Twemoji_Part_1.ipynb
-└── Twemoji_Part_2.ipynb
+├── Twemoji_Part_2.ipynb
+└── Twemoji_Part_3.ipynb
 ```
 
 ## Setup
